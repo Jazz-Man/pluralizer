@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "jazzman/inflector",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Jazz-Man/inflector.git",
-                "reference": "3aa7a4c47c23cfb089b63760da023b7a519551d0"
+                "reference": "3283a5d9280ac4cdc6e85d97883012dfae995ae4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Jazz-Man/inflector/zipball/3aa7a4c47c23cfb089b63760da023b7a519551d0",
-                "reference": "3aa7a4c47c23cfb089b63760da023b7a519551d0",
+                "url": "https://api.github.com/repos/Jazz-Man/inflector/zipball/3283a5d9280ac4cdc6e85d97883012dfae995ae4",
+                "reference": "3283a5d9280ac4cdc6e85d97883012dfae995ae4",
                 "shasum": ""
             },
             "require": {
@@ -39,7 +39,7 @@
                     "email": "vsokolyk@gmail.com"
                 }
             ],
-            "time": "2018-07-16T11:31:19+00:00"
+            "time": "2018-07-16T14:08:07+00:00"
         }
     ],
     "packages-dev": [],

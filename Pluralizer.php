@@ -2,7 +2,7 @@
 
 namespace JazzMan\Pluralizer;
 
-use Doctrine\Common\Inflector\Inflector;
+use JazzMan\Inflector\Inflector;
 
 /**
  * Class Pluralizer
@@ -76,7 +76,7 @@ class Pluralizer
      */
     public static function singular($value)
     {
-        $singular = Inflector::singularize($value);
+        $singular = \JazzMan\Inflector\Inflector::singularize($value);
 
         return static::matchCase($singular, $value);
     }
