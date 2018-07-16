@@ -1,0 +1,19 @@
+{
+    "name": "jazzman/pluralizer",
+    "license": "MIT",
+    "require": {
+        "php":">=5.6",
+        "jazzman/inflector": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JazzMan\\Pluralizer\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "V.Sokolyk",
+            "email": "vsokolyk@gmail.com"
+        }
+    ]
+}
