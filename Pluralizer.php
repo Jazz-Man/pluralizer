@@ -76,7 +76,7 @@ class Pluralizer
      */
     public static function singular($value)
     {
-        $singular = \JazzMan\Inflector\Inflector::singularize($value);
+        $singular = Inflector::singularize($value);
 
         return static::matchCase($singular, $value);
     }
